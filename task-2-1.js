@@ -13,21 +13,21 @@ function myFunction(speed, road) {
 
 	if (road === 'city' || road === undefined) {
 		way = 'Miasto:';
-		if (speed < CITY_SPEED_LIMIT) {
+		if (speed <= CITY_SPEED_LIMIT) {
 			console.log(way + goodSpeed);
 		} else if (speed > CITY_SPEED_LIMIT) {
 			console.log(way + badSpeed);
 		}
 	} else if (road === 'expressway') {
 		way = 'Eska:';
-		if (speed < TWO_LANE_EXPRESSWAY_SPEED_LIMIT) {
+		if (speed <= TWO_LANE_EXPRESSWAY_SPEED_LIMIT) {
 			console.log(way + goodSpeed);
 		} else if (speed > TWO_LANE_EXPRESSWAY_SPEED_LIMIT) {
 			console.log(way + badSpeed);
 		}
 	} else if (road === 'highway') {
 		way = 'Autostrada:';
-		if (speed < TWO_LANE_EXPRESSWAY_SPEED_LIMIT) {
+		if (speed <= TWO_LANE_EXPRESSWAY_SPEED_LIMIT) {
 			console.log(way + goodSpeed);
 		} else if (speed > TWO_LANE_EXPRESSWAY_SPEED_LIMIT) {
 			console.log(way + badSpeed);
