@@ -12,3 +12,15 @@ typeOfRoad ma wartosc 'city' i speed jest mniejsze od wartosci CITY_SPEED_LIMIT 
 typeOfRoad ma wartosc 'expressway' i speed jest mniejsze od wartosci TWO_LANE_EXPRESSWAY_SPEED_LIMIT to zostanie wyswietlony tekst 'Eska: jedziesz prawidlowo' jezeli ta predkosc jest wieksza od wartosci TWO_LANE_EXPRESSWAY_SPEED_LIMIT - wyswietlony zostanie tekst: 'Eska: przekroczyles prędkość'.
 
 typeOfRoad ma wartosc 'highway' i speed jest mniejsze od wartosci HIGHWAY_SPEED_LIMIT to zostanie wyswietlony tekst 'Autostrada: jedziesz prawidlowo' jezeli ta predkosc jest wieksza od wartosci HIGHWAY_SPEED_LIMIT - wyswietlony zostanie tekst: 'autostrada: przekroczyles prędkość'.
+
+## TASK 2-3
+
+zadanie dodatkowe dla chetnych, ale zachecam zeby kazdy z Was sprobowal
+
+Zmien tak wytyczne zadania [2][1], zeby napisac funkcje, ktora bedzie przyjmowala dwa parametry: speed i typeOfRoad gdzie wartosc domyslna typeOfRoad jest rowna 'city' funkcja powinna wypisywac to co jest zapisane w zadaniu [2][1] kiedy przy wywolaniu podajemy speed i/lub typeOfRoad:
+
+czyli jezeli wywolam funkcje
+myFunction(30); to zostanie wyswietlony tekst 'Miasto: jedziesz prawidlowo'
+myFunction(150, 'expressway'); zostanie wyswietlony tekst 'Eska: przekroczyles prędkość'
+
+itd.
