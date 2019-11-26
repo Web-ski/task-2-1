@@ -1,4 +1,4 @@
-!!! TASK 2-1
+## TASK 2-1
 
 Zadeklaruj stala CITY_SPEED_LIMIT i przypisz jej wartosc 50, zadeklaruj stala TWO_LANE_EXPRESSWAY_SPEED_LIMIT i przypisz jej wartosc 120, zadeklaruj stala HIGHWAY_SPEED_LIMIT i przypisz jej wartosc 140.
 
