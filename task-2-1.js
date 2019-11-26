@@ -25,7 +25,7 @@ function myFunction(speed, road) {
 		} else if (speed > TWO_LANE_EXPRESSWAY_SPEED_LIMIT) {
 			console.log(way + badSpeed);
 		}
-	} else if (road === 'expressway') {
+	} else if (road === 'highway') {
 		way = 'Autostrada:';
 		if (speed < TWO_LANE_EXPRESSWAY_SPEED_LIMIT) {
 			console.log(way + goodSpeed);
